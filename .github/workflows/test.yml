@@ -32,7 +32,7 @@ jobs:
           'packet,stop', 'pause', 'partition,disk', 'pause,disk' ]
       jepsen-cowsql-repo: ${{ github.repository }}
       jepsen-cowsql-ref: ${{ github.ref }}
-      raft-repo: ${{ inputs.raft-repo || 'cowsql/raft' }}
+      raft-repo: ${{ inputs.raft-repo || 'freeekanayaka/raft' }}
       raft-ref: ${{ inputs.raft-ref || 'main' }}
       cowsql-repo: ${{ inputs.cowsql-repo || 'cowsql/cowsql' }}
       cowsql-ref: ${{ inputs.cowsql-ref || 'main' }}
